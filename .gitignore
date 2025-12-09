@@ -1,0 +1,28 @@
+# Go build
+db-backup-cli.exe
+db-backup-cli
+*.exe
+*.out
+
+# Logs
+backup.log
+backup.log.*
+
+# Local configs with secrets
+config.json
+restore-config.json
+
+# Database dump files
+*.sql
+*.sql.gz
+*.sql.gz.enc
+*.enc
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Test helper
+sts-test.go

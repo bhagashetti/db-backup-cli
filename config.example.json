@@ -1,0 +1,17 @@
+{
+  "dbType": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "user": "root",
+  "password": "YOUR_DB_PASSWORD",
+  "dbName": "backup_demo",
+  "out": "backup_demo.sql",
+  "compress": true,
+  "useTimestamp": true,
+  "encrypt": true,
+  "encryptKey": "32_CHAR_ENCRYPTION_KEY_HERE_123456",
+  "uploadS3": true,
+  "s3Bucket": "your-s3-bucket-name",
+  "s3Region": "ap-south-1",
+  "s3Prefix": "mysql-backups/"
+}
